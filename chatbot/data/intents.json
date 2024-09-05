@@ -9,6 +9,7 @@
                 "Apa Kabar",
                 "Selamat Pagi",
                 "Selamat Siang",
+                "Selamat Sore",
                 "Selamat Malam",
                 "Salam",
                 "Ping",
@@ -48,7 +49,9 @@
                 "siapa sih lo?",
                 "lu sape ?",
                 "nama lo sape dah ?",
-                "nama?"
+                "nama?",
+                "siapa kamu?",
+                "siapa anda?"
             ],
             "responses": [
                 "Namaku nano, salam kenal kak!",
