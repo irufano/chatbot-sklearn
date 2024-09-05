@@ -1,9 +1,10 @@
 import string
+import pickle
+import numpy as np
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from util import JSONParser
-import numpy as np
 
 
 def preprocess(chat):
@@ -56,5 +57,10 @@ pipeline = make_pipeline(CountVectorizer(), MultinomialNB())
 print("[INFO] Training data ...")
 pipeline.fit(df.text_input_prep, df.intents)
 
+# save model
+with open("model/chatbot_irufano_model.pkl", "wb") as model_file:
+    pickle.dump(pipeline, model_file)
+
+# interaction with bot
 if __name__ == "__main__":
     chat(pipeline, jp)
