@@ -105,3 +105,5 @@ $RECYCLE.BIN/
 
 # models 
 models/
+
+util/__pycache__
