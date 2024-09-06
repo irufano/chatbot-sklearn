@@ -24,6 +24,18 @@
             ]
         },
         {
+            "tag": "assalamualaikum",
+            "patterns": [
+                "Assalamu'alaikum",
+                "Assalamualaikum bro",
+                "Halo assalamualaikum",
+                "Hai assalamualaikum"
+            ],
+            "responses": [
+                "Wa'alaikumsalam"
+            ]
+        },
+        {
             "tag": "bye",
             "patterns": [
                 "Dadah",
